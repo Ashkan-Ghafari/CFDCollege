@@ -7,44 +7,50 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
+      margin: 0;
+      padding: 0;
       background-color: #f4f4f4;
       color: #333;
     }
-    header, footer {
+    header {
       background-color: #003366;
       color: white;
+      padding: 2rem;
       text-align: center;
-      padding: 1rem 0;
     }
     nav a {
       color: white;
       margin: 0 1rem;
       text-decoration: none;
+      font-weight: bold;
     }
     .container {
-      padding: 2rem;
-      max-width: 1200px;
+      max-width: 1000px;
       margin: auto;
+      padding: 2rem;
+    }
+    h2 {
+      color: #003366;
     }
     section {
       margin-bottom: 2rem;
-    }
-    h1, h2 {
-      color: #003366;
-    }
-    .card {
       background: white;
       padding: 1.5rem;
       border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      margin-top: 1rem;
     }
-    .course-list li {
-      margin: 0.5rem 0;
-    }
-    footer p {
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
       font-size: 0.9rem;
+    }
+    a {
+      color: #003366;
+    }
+    ul {
+      padding-left: 1.2rem;
     }
   </style>
 </head>
@@ -52,11 +58,12 @@
 
 <header>
   <h1>CFD College</h1>
-  <p>by Ashkan Ghafari</p>
+  <p>By Ashkan Ghafari</p>
   <nav>
     <a href="#about">About</a>
     <a href="#courses">Courses</a>
     <a href="#research">Research</a>
+    <a href="#youtube">YouTube</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
@@ -65,47 +72,43 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <div class="card">
-      <p>I'm Ashkan Ghafari, a Ph.D. student in Mechanical Engineering at Concordia University, Montreal, specializing in numerical simulations of Axial Suspension Plasma Spraying using ANSYS Fluent. I have over 10 years of experience in CFD and advanced flow visualization techniques including PIV and shadowgraph. Through CFD College, I share training resources to help students and professionals master CFD tools and techniques.</p>
-    </div>
+    <p>My name is Ashkan Ghafari, and I’m a Ph.D. student in Mechanical Engineering at Concordia University, Montreal. My research focuses on numerical simulation of the Axial Suspension Plasma Spraying (SPS) process using ANSYS Fluent. I have over 10 years of experience in Computational Fluid Dynamics (CFD), experimental fluid mechanics, and flow visualization techniques such as PIV and shadowgraph.</p>
   </section>
 
   <section id="courses">
     <h2>Training Courses</h2>
-    <div class="card">
-      <ul class="course-list">
-        <li><strong>ANSYS Fluent:</strong> Beginner to Advanced CFD Simulations</li>
-        <li><strong>CFD Post:</strong> Post-processing of CFD Results</li>
-        <li><strong>ParaView:</strong> Scientific Visualization Techniques</li>
-        <li><strong>Tecplot:</strong> Charting and Analysis of CFD Data</li>
-        <li><strong>MATLAB:</strong> Post-processing and Automation Scripts</li>
-        <li><strong>OriginPro:</strong> Scientific Graphs and Data Presentation</li>
-        <li><strong>Resume & Scholarship Writing:</strong> Academic Career Development</li>
-      </ul>
-    </div>
+    <p>I create and share practical CFD tutorials to help students and researchers enhance their simulation skills. Topics include:</p>
+    <ul>
+      <li>ANSYS Fluent (Beginner to Advanced)</li>
+      <li>CFD Post and Tecplot for result visualization</li>
+      <li>Paraview for advanced 3D post-processing</li>
+      <li>MATLAB for CFD data analysis</li>
+      <li>OriginPro for scientific chart plotting</li>
+      <li>Resume writing and academic CV preparation</li>
+    </ul>
   </section>
 
   <section id="research">
     <h2>Research Focus</h2>
-    <div class="card">
-      <p>My current research is focused on the numerical modeling of the suspension plasma spraying process using the Mettech Axial III torch. I simulate complex plasma-substrate interactions, optimize torch parameters, and analyze particle dynamics to enhance coating quality and deposition efficiency.</p>
-    </div>
+    <p>My doctoral research involves the numerical modeling of the Axial Suspension Plasma Spraying process using the Mettech Axial III torch. I simulate the plasma jet, suspension injection, particle heating, and coating formation to improve deposition efficiency and microstructure quality. I also support graduate students with their CFD simulations in ANSYS Fluent.</p>
   </section>
 
   <section id="youtube">
-    <h2>CFD College on YouTube</h2>
-    <div class="card">
-      <p>Visit my <a href="https://www.youtube.com/@CFDCollege" target="_blank">YouTube channel</a> for free tutorials and walkthroughs on ANSYS Fluent, Tecplot, ParaView, and more. Each playlist is organized to help learners follow a structured path.</p>
-    </div>
+    <h2>YouTube Channel</h2>
+    <p>Through my channel <strong>CFD College</strong>, I share structured tutorials on:</p>
+    <ul>
+      <li><a href="https://www.youtube.com/playlist?list=PL..." target="_blank">ANSYS Fluent tutorials</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PL..." target="_blank">Tecplot and CFD Post tutorials</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PL..." target="_blank">Paraview visualizations</a></li>
+    </ul>
+    <p>👉 Visit the channel here: <a href="https://www.youtube.com/@CFDCollege" target="_blank">youtube.com/@CFDCollege</a></p>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <div class="card">
-      <p>Email: <a href="mailto:ashkan@cfdcollege.com">ashkan@cfdcollege.com</a></p>
-      <p>Website: <a href="https://www.cfdcollege.com" target="_blank">www.cfdcollege.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/ashkanghafari" target="_blank">Ashkan Ghafari</a></p>
-    </div>
+    <p>Email: <a href="mailto:ashkan@cfdcollege.com">ashkan@cfdcollege.com</a></p>
+    <p>Website: <a href="https://www.cfdcollege.com" target="_blank">www.cfdcollege.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ashkanghafari" target="_blank">Ashkan Ghafari</a></p>
   </section>
 
 </div>
